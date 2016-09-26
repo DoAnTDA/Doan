@@ -6,7 +6,7 @@ namespace WebDoAn.Models
     public class ApplicationUser : IdentityUser
     {
     }
-
+    //s
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
