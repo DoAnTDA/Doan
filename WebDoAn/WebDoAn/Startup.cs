@@ -6,6 +6,7 @@ namespace WebDoAn
 {
     public partial class Startup
     {
+        //sd
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
