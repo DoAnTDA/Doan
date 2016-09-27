@@ -13,6 +13,7 @@ using WebDoAn.Models;
 namespace WebDoAn.Controllers
 {
     [Authorize]
+    //abc
     public class AccountController : Controller
     {
         public AccountController()
