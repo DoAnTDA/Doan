@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="447b3638fd634409974c8d63545c7665" Name="Diagram1" ZoomLevel="34">
+        <EntityTypeShape EntityType="QLNghiPhepModel.AbsenceLetter" Width="1.5" PointX="2.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNghiPhepModel.Account" Width="1.5" PointX="4.875" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNghiPhepModel.BonusDayOff" Width="1.5" PointX="9.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNghiPhepModel.DefaultValue" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNghiPhepModel.Employee" Width="1.5" PointX="9.125" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNghiPhepModel.GoOutLetter" Width="1.5" PointX="7.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNghiPhepModel.Permission" Width="1.5" PointX="2.625" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNghiPhepModel.Reason" Width="1.5" PointX="4.875" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLNghiPhepModel.Timekeeping" Width="1.5" PointX="0.5" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_AbsenceLetter_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_AbsenceLetter_Reason" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_Account_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_BonusDayOff_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_Employee_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_GoOutLetter_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_Timekeeping_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_BonusDayOff_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="QLNghiPhepModel.FK_GoOutLetter_Reason" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
