@@ -156,38 +156,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbsenceLetter.cs">
+    <Compile Include="Models\AbsenceLetter.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
-    <Compile Include="Account.cs">
+    <Compile Include="Models\Account.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="BonusDayOff.cs">
+    <Compile Include="Models\BonusDayOff.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="DefaultValue.cs">
+    <Compile Include="Models\DefaultValue.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
-    <Compile Include="Employee.cs">
+    <Compile Include="Models\Employee.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
-    <Compile Include="EntitiesQLNP.Context.cs">
+    <Compile Include="Models\EntitiesQLNP.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EntitiesQLNP.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="EntitiesQLNP.cs">
+    <Compile Include="Models\EntitiesQLNP.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
-    <Compile Include="EntitiesQLNP.Designer.cs">
+    <Compile Include="Models\EntitiesQLNP.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EntitiesQLNP.edmx</DependentUpon>
@@ -195,20 +195,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="GoOutLetter.cs">
+    <Compile Include="Models\GoOutLetter.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Permission.cs">
+    <Compile Include="Models\Permission.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reason.cs">
+    <Compile Include="Models\Reason.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="Timekeeping.cs">
+    <Compile Include="Models\Timekeeping.cs">
       <DependentUpon>EntitiesQLNP.tt</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -221,19 +221,19 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="EntitiesQLNP.edmx">
+    <EntityDeploy Include="Models\EntitiesQLNP.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>EntitiesQLNP.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="EntitiesQLNP.Context.tt">
+    <Content Include="Models\EntitiesQLNP.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>EntitiesQLNP.edmx</DependentUpon>
       <LastGenOutput>EntitiesQLNP.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="EntitiesQLNP.edmx.diagram">
+    <Content Include="Models\EntitiesQLNP.edmx.diagram">
       <DependentUpon>EntitiesQLNP.edmx</DependentUpon>
     </Content>
-    <Content Include="EntitiesQLNP.tt">
+    <Content Include="Models\EntitiesQLNP.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>EntitiesQLNP.edmx</DependentUpon>
       <LastGenOutput>EntitiesQLNP.cs</LastGenOutput>

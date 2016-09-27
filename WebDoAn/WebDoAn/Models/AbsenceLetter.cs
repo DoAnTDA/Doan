@@ -7,18 +7,22 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebDoAn
+namespace WebDoAn.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Timekeeping
+    public partial class AbsenceLetter
     {
         public int ID { get; set; }
-        public string CheckIn { get; set; }
-        public string CheckOut { get; set; }
+        public string StartTime { get; set; }
+        public short TotalTime { get; set; }
+        public string CreateTime { get; set; }
+        public string Status { get; set; }
+        public string Reason_ID { get; set; }
         public int Account_ID { get; set; }
     
         public virtual Account Account { get; set; }
+        public virtual Reason Reason { get; set; }
     }
 }

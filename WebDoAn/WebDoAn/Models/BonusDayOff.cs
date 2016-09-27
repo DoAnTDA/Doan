@@ -7,15 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebDoAn
+namespace WebDoAn.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class DefaultValue
+    public partial class BonusDayOff
     {
-        public byte ID { get; set; }
-        public int Value { get; set; }
+        public int ID { get; set; }
+        public byte TotalDates { get; set; }
         public string Description { get; set; }
+        public string CreateTime { get; set; }
+        public int CreateUser_ID { get; set; }
+        public int Employee_ID { get; set; }
+    
+        public virtual Account Account { get; set; }
+        public virtual Employee Employee { get; set; }
     }
 }

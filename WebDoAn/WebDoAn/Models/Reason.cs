@@ -7,22 +7,23 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebDoAn
+namespace WebDoAn.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class AbsenceLetter
+    public partial class Reason
     {
-        public int ID { get; set; }
-        public string StartTime { get; set; }
-        public short TotalTime { get; set; }
-        public string CreateTime { get; set; }
-        public string Status { get; set; }
-        public string Reason_ID { get; set; }
-        public int Account_ID { get; set; }
+        public Reason()
+        {
+            this.AbsenceLetters = new HashSet<AbsenceLetter>();
+            this.GoOutLetters = new HashSet<GoOutLetter>();
+        }
     
-        public virtual Account Account { get; set; }
-        public virtual Reason Reason { get; set; }
+        public string ID { get; set; }
+        public string Name { get; set; }
+    
+        public virtual ICollection<AbsenceLetter> AbsenceLetters { get; set; }
+        public virtual ICollection<GoOutLetter> GoOutLetters { get; set; }
     }
 }
